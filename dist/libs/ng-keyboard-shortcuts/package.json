@@ -1,0 +1,48 @@
+{
+  "name": "ng-keyboard-shortcuts",
+  "version": "13.0.6",
+  "description": "Dead Simple Keyboard Shortcuts Management for Angular 2+",
+  "keywords": [
+    "angular",
+    "keyboard",
+    "shortcuts",
+    "ng",
+    "keyboard-shortcuts",
+    "rxjs"
+  ],
+  "license": "MIT",
+  "author": "Omri Katz <omrikatz12@gmail.com> (https://github.com/omridevk)",
+  "homepage": "https://omridevk.github.io/ng-keyboard-shortcuts",
+  "repository": "github.com/omridevk/ng-keyboard-shortcuts",
+  "bugs": "https://github.com/omridevk/ng-keyboard-shortcuts/issues",
+  "peerDependencies": {
+    "@angular/common": ">=9.0.0",
+    "@angular/core": ">=9.0.0",
+    "@angular/platform-browser": ">=9.0.0",
+    "rxjs": ">=6.0.0",
+    "@angular/animations": "~13.3.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "module": "fesm2015/ng-keyboard-shortcuts.mjs",
+  "es2020": "fesm2020/ng-keyboard-shortcuts.mjs",
+  "esm2020": "esm2020/ng-keyboard-shortcuts.mjs",
+  "fesm2020": "fesm2020/ng-keyboard-shortcuts.mjs",
+  "fesm2015": "fesm2015/ng-keyboard-shortcuts.mjs",
+  "typings": "ng-keyboard-shortcuts.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./ng-keyboard-shortcuts.d.ts",
+      "esm2020": "./esm2020/ng-keyboard-shortcuts.mjs",
+      "es2020": "./fesm2020/ng-keyboard-shortcuts.mjs",
+      "es2015": "./fesm2015/ng-keyboard-shortcuts.mjs",
+      "node": "./fesm2015/ng-keyboard-shortcuts.mjs",
+      "default": "./fesm2020/ng-keyboard-shortcuts.mjs"
+    }
+  },
+  "sideEffects": false
+}
