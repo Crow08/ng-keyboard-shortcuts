@@ -63,5 +63,12 @@
     "ts-jest": "27.1.4",
     "ts-node": "9.1.1",
     "typescript": "~4.6.2"
-  }
+  },
+  "fesm2015": "./dist/libs/ng-keyboard-shortcuts/fesm2015/ng-keyboard-shortcuts.mjs",
+  "fesm2020": "./dist/libs/ng-keyboard-shortcuts/fesm2020/ng-keyboard-shortcuts.mjs",
+  "esm2020": "./dist/libs/ng-keyboard-shortcuts/esm2020/ng-keyboard-shortcuts.mjs",
+  "typings": "./dist/libs/ng-keyboard-shortcuts/ng-keyboard-shortcuts.d.ts",
+  "module": "./dist/libs/ng-keyboard-shortcuts/fesm2020/ng-keyboard-shortcuts.mjs",
+  "es2015": "./dist/libs/ng-keyboard-shortcuts/fesm2015/ng-keyboard-shortcuts.mjs",
+  "es2020": "./dist/libs/ng-keyboard-shortcuts/fesm2020/ng-keyboard-shortcuts.mjs"
 }
